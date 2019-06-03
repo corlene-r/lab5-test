@@ -2,10 +2,6 @@ p{
 	color: blue;
 }
 
-.software{
-	background-image: url('software.png');
-}
-
 @media only screen and (min-device-width: 1201){
 	.software{
 		width: 128px; height: 241px;
@@ -64,7 +60,7 @@ p{
 }
 
 @media only screen and (min-device-width: 401){
-	.software={
+	.software{
 		width: 128px; height: 239px;
 		background-image:url('software.png') 385px -241px;
 	}
