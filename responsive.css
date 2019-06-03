@@ -1,0 +1,78 @@
+p{
+	color: blue;
+}
+
+.software{
+	background-image: url(software.png);
+}
+
+@media screen and (min-device-width: 1201){
+	.software{
+		width: 128px; height: 241px;*/
+		background-image:url(software.png) 2px 0px;
+	}
+}
+
+@media screen and (min-device-width: 1101){
+	.software{
+		width: 128px; height: 241px;
+		background-image:url(software.png) 130px 0px;
+	}
+}
+
+@media screen and (min-device-width: 1001){
+	.software{
+		width: 128px; height: 241px;
+		background-image:url(software.png) 258px 0px;
+	}
+
+}
+
+@media screen and (min-device-width: 901){
+	.software{
+		width: 128px; height: 241px;
+		background-image:url(software.png) 385px 0px;
+	}
+}
+
+@media screen and (min-device-width: 801){
+	.software{
+		width: 128px; height: 241px;
+		background-image:url(software.png) 511px 0px;
+	}
+}
+
+@media screen and (min-device-width: 701){
+	.software{
+		width: 128px; height: 239px;
+		background-image:url(software.png) 2px -241px;
+	}
+}
+
+@media screen and (min-device-width: 601){
+	.software{
+		width: 128px; height: 239px;
+		background-image:url(software.png) 130px -241px;
+	}
+}
+
+@media screen and (min-device-width: 501){
+	.software{
+		width: 128px; height: 239px;
+		background-image:url(software.png) 258px -241px;
+	}
+}
+
+@media screen and (min-device-width: 401){
+	.software={
+		width: 128px; height: 239px;
+		background-image:url(software.png) 385px -241px;
+	}
+}
+
+@media screen and (max-device-width: 400){
+	.software{
+		width: 128px; height: 241px;
+		background-image:url(software.png) 511px -241px;
+	}
+}
